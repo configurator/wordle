@@ -34,7 +34,7 @@ metadata:
     external-dns.alpha.kubernetes.io/cloudflare-proxied: 'false'
 spec:
   rules:
-    - host: wordle.confi.gurator.com
+    - host: wordle.startupbooster.dev
       http:
         paths:
           - pathType: Prefix
@@ -44,8 +44,8 @@ spec:
               servicePort: 80
   tls:
     - hosts:
-        - wordle.confi.gurator.com
-      secretName: wordle-confi-gurator-com
+        - wordle.startupbooster.dev
+      secretName: wordle-startupbooster-dev
 
 ---
 
